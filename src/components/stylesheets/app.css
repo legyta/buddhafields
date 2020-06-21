@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+.logo-image {
+  width: 100%;
+  height: 60%;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: #f0592a;
+  color: #f6f6f6;
+  border-color: #f6f6f6;
+  letter-spacing: 0px;
+  font-size: 20px;
+  width: 8em;
+  margin-top: 1em;
+  display: inline-block;
+  font-weight: normal;
+  font-family: "Gloria Hallelujah", cursive;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  user-select: none;
+}
+
+button:hover {
+  background-color: #088d49;
+}
+
+.app-image-thu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-sat-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.app-image-bfLogo {
+  height: 10%;
+  width: 10%;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
+  img {
+    width: 70%;
+    height: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+  img {
+    width: 70%;
+    height: 70%;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px) {
+  img {
+    width: 70%;
+    height: 70%;
+  }
+}

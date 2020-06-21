@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+.day {
+  margin: 2em 0;
+  font-family: "Gloria Hallelujah";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .table {
+  //   border-style: solid;
+  //   border-color: pink;
+} */
+.table-title {
+  color: #333333;
+}
+
+.table-title th {
+  padding: 5px;
+}
+.table-content {
+  font-family: "Comfortaa", cursive;
+}
+
+.table-content td {
+  background-color: #fcb042;
+  color: #333;
+  padding: 5px;
+}
+
+.image-wed {
+  height: 10%;
+  width: 10%;
+}
+
+.image-thu {
+  height: 10%;
+  width: 10%;
+  margin: 0px 180px;
+}
+
+.image-thu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image-fri {
+  height: 40%;
+  width: 40%;
+}
